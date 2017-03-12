@@ -41,7 +41,7 @@ no_command() {
 # Get the current username
 me="$(whoami)"
 
-# HASSCTL_CONF can be overridden as an env var
+# HASSCTL_CONF can be overwridden as an env var
 HASSCTL_CONF="${HASSCTL_CONF:-/etc/hassctl.conf}"
 
 # Read configuration file
